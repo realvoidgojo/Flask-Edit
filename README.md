@@ -1,4 +1,5 @@
 # FlaskEdit - Secure Image Converter
+[link](https://flask-edit.onrender.com)
 
 A robust, secure single-page image conversion web application built with Flask.
 
@@ -24,7 +25,7 @@ A robust, secure single-page image conversion web application built with Flask.
 
 3. **Run locally**:
    ```bash
-   python main.py
+   python app.py
    ```
 
 4. **Access**: Open `http://localhost:5000`
