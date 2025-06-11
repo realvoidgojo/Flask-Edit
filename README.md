@@ -11,10 +11,9 @@ A robust, secure single-page image conversion web application built with Flask.
 - **Responsive Design**: Works perfectly on mobile and desktop
 
 
-
 1. **Clone the repository**:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/realvoidgojo/Flask-Edit.git
    cd FlaskEdit
    ```
 
@@ -74,45 +73,6 @@ FlaskEdit/
 ├── uploads/                 # Temporary uploads (auto-cleaned)
 └── temp_conversions/        # Temporary conversions (auto-cleaned)
 ```
-
-## Security Features
-
-- **File Validation**: MIME type checking and image verification
-- **Secure Storage**: UUID-based naming prevents conflicts
-- **Auto-Cleanup**: All files deleted after 1 hour
-- **Size Limits**: 16MB maximum file size
-- **Privacy**: No permanent storage, no user data collection
-
-## How to Use
-
-1. **Upload**: Drag and drop an image or click to browse
-2. **Select Format**: Choose your desired output format
-3. **Convert**: Click convert and wait for processing  
-4. **Download**: Download your converted image immediately
-
-## Browser Support
-
-- Chrome (recommended)
-- Firefox
-- Safari  
-- Edge
-- Mobile browsers
-
-## Troubleshooting
-
-### Common Issues
-
-**File too large error**:
-- Maximum file size is 16MB
-- Try compressing your image first
-
-**Conversion failed**:
-- Ensure the file is a valid image
-- Try a different source format
-
-**Upload not working**:
-- Check your internet connection
-- Ensure JavaScript is enabled
 
 ## License
 
